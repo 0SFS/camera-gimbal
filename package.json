@@ -1,0 +1,17 @@
+{
+  "name": "@0sfs/camera-gimbal",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "AGPL-3.0-only",
+  "exports": {
+    ".": {
+      "source": "./src/index.ts",
+      "default": "./src/index.ts"
+    },
+    "./manifest": "./public/0sfs-mod.json"
+  },
+  "peerDependencies": {
+    "@babylonjs/core": "8.56.2"
+  }
+}
