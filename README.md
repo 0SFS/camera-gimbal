@@ -9,3 +9,5 @@ Shared stabilization and camera-axis articulation. The declarative mod is `0sfs/
 `slewGimbal` bounds a target and its angular speed. A cockpit camera adopted by the rig returns to its original parent, position, and rotation on view change or disposal.
 
 This component knows nothing about WebGPU capture, JSBSim, brands, remote controls, or panorama sequences. Capture stays in the flight feature. Gimbal stabilization is separate from the Aircraft/Momentum/Planet chase-camera frame selection. This local component has not been published.
+
+Topics: `0sfs-mod` and `0sfs-component-mod`. [Modding guide](https://github.com/0SFS/docs/blob/main/modding.md) describes discovery and installation.
